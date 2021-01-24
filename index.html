@@ -1,0 +1,19 @@
+   <div style="min-height: 200px;width: 500px;margin: 50px auto; background-color: #67c23a66;padding: 24px;box-sizing: border-box;" >
+            
+            <el-form label-width="auto" label-position="right">
+                <el-row :gutter="24">
+                  <el-col :span="12">
+                    <el-form-item label="姓名">
+                        <el-input></el-input>
+                    </el-form-item>
+                  </el-col>
+                  <el-col :span="12">
+                    <el-form-item label="年龄">
+                        <el-input @focus="alert('空白处也可以触发focus事件')"></el-input>
+                    </el-form-item>
+                  </el-col>
+                
+                </el-row>
+            </el-form>
+            
+     </div>
